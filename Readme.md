@@ -1,26 +1,23 @@
----
-
-### 📄 `README.md`
-
-````markdown
 # 📍 Image Location Overlay Tool
 
 This Python script processes a batch of images, overlays them with:
-- a **map thumbnail** of a specified location,
-- a **reverse geocoded address**,
-- and a **timestamp** (fixed or randomized based on filename).
+
+* a **map thumbnail** of a specified location,
+* a **reverse geocoded address**,
+* and a **timestamp** (fixed or randomized based on filename).
 
 ---
 
 ## ✨ Features
 
-- Adds a **semi-transparent banner** at the bottom of each image.
-- Displays:
-  - OpenStreetMap thumbnail with location marker
-  - Address from coordinates (via OpenStreetMap Nominatim)
-  - Latitude & Longitude
-  - Timestamp (based on filename or randomized)
-- Automatically processes all images in a given folder.
+* Adds a **semi-transparent banner** at the bottom of each image.
+* Displays:
+
+  * OpenStreetMap thumbnail with location marker
+  * Address from coordinates (via OpenStreetMap Nominatim)
+  * Latitude & Longitude
+  * Timestamp (based on filename or randomized)
+* Automatically processes all images in a given folder.
 
 ---
 
@@ -30,7 +27,7 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
 ### `requirements.txt`
 
@@ -42,7 +39,7 @@ staticmap==0.5.4
 
 ---
 
-## 🗂 Folder Structure
+## 💂 Folder Structure
 
 ```
 project/
@@ -89,7 +86,7 @@ All timestamps use a **random morning time between 8:00 AM and 10:59 AM**.
 
 ---
 
-## 🗺️ Default Coordinates
+## 🌍 Default Coordinates
 
 The script uses the following coordinates (you can change them in `main.py`):
 
@@ -101,13 +98,13 @@ Zoom:      18
 
 ---
 
-## 🧩 Customization
+## 🧹 Customization
 
 * To change banner position (e.g. top instead of bottom), timestamp formats, or location source (e.g., EXIF), feel free to ask or tweak the code.
 * Works well for field visit documentation, NGO site tagging, or geo-photologging.
 
+---
+
 ## 🧑‍💻 Author
 
-Built by \Santpal – feel free to fork and customize!
-
-```
+Built by **Santpal** – feel free to fork and customize!
