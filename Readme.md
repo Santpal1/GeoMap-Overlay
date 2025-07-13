@@ -1,5 +1,3 @@
-Here’s a clean and concise `README.md` tailored to your project:
-
 ---
 
 ### 📄 `README.md`
@@ -74,6 +72,7 @@ Output images will be saved with the overlay in the `output_images/` folder.
 ## 🗓 Timestamp Mapping
 
 Timestamps are assigned based on the filename:
+You can change this however you like.
 
 | Filename Contains | Assigned Date                           |
 | ----------------- | --------------------------------------- |
@@ -107,23 +106,8 @@ Zoom:      18
 * To change banner position (e.g. top instead of bottom), timestamp formats, or location source (e.g., EXIF), feel free to ask or tweak the code.
 * Works well for field visit documentation, NGO site tagging, or geo-photologging.
 
----
-
-## 📸 Sample Output
-
-*Example images showing map + address + timestamp overlay.*
-
-*(Add sample screenshots or outputs here)*
-
----
-
 ## 🧑‍💻 Author
 
-Built by \[Your Name] – feel free to fork and customize!
+Built by \Santpal – feel free to fork and customize!
 
-```
-
----
-
-Let me know if you want this personalized with your GitHub name, institution (e.g., SRM), or to add sample image previews in the markdown.
 ```
